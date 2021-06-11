@@ -6,8 +6,8 @@ This project was uses [unsplash-js](https://www.npmjs.com/package/unsplash-js).
 
 Register for a developer key [Unsplash Developer Key](https://unsplash.com/developers)
 
-Create a ''' .env ''' file in the root of your project containing the key
-''' REACT_APP_KEY=<YOUR KEY> ''' minus the angle brackets
+Create a .env file in the root of your project containing the key
+REACT_APP_KEY=<YOUR KEY> minus the angle brackets
 
 ### `npm start`
 
