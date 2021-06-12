@@ -46,19 +46,10 @@ function App() {
           <button type="submit">SEARCH</button>
         </form>
         {pics.map( (pic) => (
-          <img src={pic.urls.thumb} alt={pics.alt_description} ></img> 
-        ))}
-          {/*
-      <div>
-        {pics.map((pic) => (
-          <div key={pic.id}>
-            <img 
-              alt={pic.alt_description}
-              src={pics.url.small}
-              ></img>
+          <div key ={pic.id}>
+          <img alt={pic.alt_description} src={pic.urls.thumb} /> 
           </div>
         ))}
-        </div> */}
     </div>
   );
 }
